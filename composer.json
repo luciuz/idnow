@@ -1,0 +1,24 @@
+{
+  "name": "luciuz/idnow",
+  "description": "IDnow API",
+  "keywords": [
+    "idnow"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vasilii Arnautov",
+      "email": "epicgoods@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "luciuz\\idnow\\": "src"
+    }
+  }
+}
