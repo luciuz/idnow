@@ -3,7 +3,7 @@
 IDnow API for everyone!
 
 ### Examples
-Testing
+Test
 ```php
 // init
 $idNow = new IdNow(

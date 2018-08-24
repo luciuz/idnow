@@ -124,6 +124,6 @@ class IdNowApi
      */
     public function getIdentificationUrl($transactionId)
     {
-        return "{$this->idUrl}/{$this->companyId}/identifications/{$transactionId}/start";
+        return "{$this->idUrl}/{$this->companyId}/userdata/{$transactionId}";
     }
 }
